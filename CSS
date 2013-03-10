@@ -11,18 +11,82 @@ color: #ace;
 border: 8px solid #222;
 }
 
-/* CSS*/
+/*=== CSS ===*/
+
+/* Easily Edited */
+
+/*Body*/
+body {
+background-color:#e6e6e6;
+}
+
+a {
+color:black;
+}
+
+#header {
+background-color:#C41E3A;
+}
+
+#header-bottom-right{
+background:none!important;
+}
+
+.pagename {
+font-size:2.9em;
+font-family:arial,sans-serif;
+font-variant:normal;
+color:white;
+}
+
+.pagename a:hover{
+text-decoration:none;
+}
+
+#header-bottom-left .tabmenu li a {
+width:70px;color:#98C4F0;
+background:none;
+} 
+#header-bottom-left .tabmenu li a:hover {
+color:#002B4D
+} 
+#header-bottom-left .tabmenu li.selected a {
+color:#002B4D;
+} 
+#header-bottom-left .tabmenu li.selected a:before {
+content:"> "
+} 
+.content { 
+background-color:white;
+} 
+.side{
+color:black
+}
+.linkinfo {
+color:black;
+}
+.titlebox h1 a {
+color: #C41E3A;
+font-size:36px;
+text-align: center;
+} 
+.morelink .nub { 
+background-color: #C41E3A;
+display: none;
+}
+
+/* Format */
+
 .sheets {margin-right:5px;}
-body {margin-top:5px;background-color:#e6e6e6;margin-left:auto;margin-right:auto;padding-left:5px;padding-right:5px;}
-a {color:black;}
-#header {margin-left:75px;background-color:#C41E3A;}
-#header-bottom-right{background:none!important;}
-.pagename {font-size:2.9em;font-family:arial, sans-serif;font-variant:normal;color:white;}
-.pagename a:hover{text-decoration:none;}
+body { margin-left:auto; margin-right:auto; padding-left:5px; padding-right:5px; margin-top:5px;}
+.sheets {margin-right:5px;}
+#header {margin-left:75px;}
 #header-bottom-left .tabmenu {width:70px;display:block!important;white-space:normal!important;position:absolute;left:-75px;}
 #header-bottom-left .tabmenu li {text-align:right!important;width:70px;font-size:10px;font-weight:normal;display:block!important;margin:0px!important;padding:5px 0px!important;} 
-#header-bottom-left .tabmenu li a {width:70px;color:#98C4F0;background:none;padding: 5px 2px!important;} 
-#header-bottom-left .tabmenu li a:hover {color:#002B4D;} 
-#header-bottom-left .tabmenu li.selected a {color:#002B4D;border:none!important;} 
-#header-bottom-left .tabmenu li.selected a:before {content:"> "} .content {padding:5px!important;background-color:white;border-radius:5px;margin-left:75px!important;margin-right:315px;} .side{ color:black;background:none!important;overflow:hidden!important;} .linkinfo {color:black;} .sidebox.submit .spacer, .sidebox.create {display:none;} .side .content {margin-left:0px!important;} 
-#header {border-radius:5px;border:none!important;} .titlebox h1 a { color: #C41E3A; font-size:36px; text-align: center; } .morelink .nub { background-color: #C41E3A; display: none; }
+#header-bottom-left .tabmenu li a {width:70px;padding: 5px 2px!important;} 
+#header-bottom-left .tabmenu li.selected a { border:none!important;} 
+.content { padding:5px!important;border-radius:5px;margin-left:75px!important;margin-right:315px;}
+.side{ background:none!important;overflow:hidden!important;}
+.sidebox.submit .spacer, .sidebox.create {display:none;} 
+.side .content {margin-left:0px!important;} 
+#header {border-radius:5px;border:none!important;} 
