@@ -18,28 +18,42 @@
 
 /*=== Background ===*/
 body {
-background-color:#e6e6e6;
+background-color: white;
 }
 
 /*=== Header ===*/
 #header {
-background-color:#C41E3A;
+background-color:#c6daed;
+}
+
+/*=== Top Bar ===*/
+#sr-header-area {
+background: transparent;
+border-bottom: 0px;
 }
 
 /*=== Userbar ===*/
 #header-bottom-right{
-background:none!important;
+background:white;
+position: absolute;
+}
+
+/*RES thingy*/
+.roundfield, #REScommentSubToggle, #header-bottom-right, #userbarToggle {
+border-radius: 0px!important;
+}
+#userbarToggle.userbarHide, #userbarToggle.userbarShow { display:none;
 }
 
 /*=== Pagename ===*/
-.pagename {
+.pagename a {
 font-size:2.9em;
 font-family:arial,sans-serif;
 font-variant:normal;
-color:white;
+color: black;
 }
 .pagename a:hover{
-text-decoration:none;
+color: #202A77;
 }
 
 /*=== Tabs ===*/
@@ -59,7 +73,7 @@ content:"> "
 
 /*=== Links ===*/
 .content { 
-background-color:white;
+background-color: white;
 } 
 
 /*=== Sidebar ===*/
@@ -70,13 +84,23 @@ color:black
 color:black;
 }
 .titlebox h1 a {
-color: #C41E3A;
+color: black;
 font-size:36px;
 text-align: center;
 } 
-.morelink .nub { 
-background-color: #C41E3A;
+
+/*=== Submit Buttons ===*/
+.nub { 
 display: none;
+}
+.morelink {
+background: white;
+}
+.morelink:hover {
+background: white;
+}
+.morelink a{
+color: black!important
 }
 
 /*=== Buttons ===*/
